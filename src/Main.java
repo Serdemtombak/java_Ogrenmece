@@ -46,7 +46,13 @@ public class Main {
         //String metin = hello world; şeklinde yazamayız parantez içine yazılmalı
         System.out.println(str);
 
-
+        String str = "hello world";   // ilk harf büyük yazılmalı
+        //String metin = hello world; şeklinde yazamayız parantez içine yazılmalı
+        System.out.println(str);String str = "hello world";   // ilk harf büyük yazılmalı
+        //String metin = hello world; şeklinde yazamayız parantez içine yazılmalı
+        System.out.println(str);String str = "hello world";   // ilk harf büyük yazılmalı
+        //String metin = hello world; şeklinde yazamayız parantez içine yazılmalı
+        System.out.println(str);
 
 
 
