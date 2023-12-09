@@ -130,7 +130,5 @@ public class Main {
         System.out.println("not ortalamasi :" + ortalama);
         String sonuc = (ortalama>=50) ? "gectiniz" : "kaldiniz";
         System.out.println(sonuc);
-
-
     }
 }
