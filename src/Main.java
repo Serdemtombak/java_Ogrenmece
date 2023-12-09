@@ -131,5 +131,6 @@ public class Main {
         String sonuc = (ortalama>=50) ? "gectiniz" : "kaldiniz";
         System.out.println(sonuc);
 
+
     }
 }
