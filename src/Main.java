@@ -92,8 +92,8 @@ public class Main {
        // System.out.println(sayi1);
        // sayi1 +=2;
        // System.out.println(sayi1);
-        Scanner input = new Scanner(System.in);
-        int a,b;
+       // Scanner input = new Scanner(System.in);
+       // int a,b;
 
        /* System.out.println("a sayısını giriniz:");
         a= input.nextInt();
@@ -107,11 +107,37 @@ public class Main {
         c= input.nextDouble();
         System.out.println("c sayısı :" + c);*/
 
-        String str;
-        //str = input.nextLine();
-        //System.out.println(str);
-        str=input.next();
+       /* String str;
+        str = input.nextLine();
         System.out.println(str);
+        str=input.next();
+        System.out.println(str);*/
+
+        //not ortalaması hesaplayan program yazıyorum.
+
+        int Quiz,ffinal,vize;
+        double ortalama;
+        Scanner input = new Scanner (System.in);
+
+        System.out.println("Quiz notunu giriniz :");
+        Quiz = input.nextInt();
+        System.out.println("ffinal notunu giriniz :");
+        ffinal = input.nextInt();
+        System.out.println("vize notunu giriniz :");
+        vize = input.nextInt();
+
+        ortalama = (Quiz*0.2) + (vize*0.35) + (ffinal*0.45);
+        System.out.println("not ortalamasi :" + ortalama);
+        String sonuc = (ortalama>=50) ? "gectiniz" : "kaldiniz";
+        System.out.println(sonuc);
+
+
+
+
+
+
+
+
 
 
 
