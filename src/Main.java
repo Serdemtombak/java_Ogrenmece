@@ -115,7 +115,7 @@ public class Main {
 
         //not ortalaması hesaplayan program yazıyorum.
 
-        int Quiz,ffinal,vize;
+       /* int Quiz,ffinal,vize;
         double ortalama;
         Scanner input = new Scanner (System.in);
 
@@ -129,7 +129,23 @@ public class Main {
         ortalama = (Quiz*0.2) + (vize*0.35) + (ffinal*0.45);
         System.out.println("not ortalamasi :" + ortalama);
         String sonuc = (ortalama>=50) ? "gectiniz" : "kaldiniz";
-        System.out.println(sonuc);
+        System.out.println(sonuc);*/
+
+        //algoritma ve programlama dersinde yaptığımız uygulama
+
+        int tekToplam = 0;
+        int ciftToplam = 0;
+
+        for (int sayac = 1; sayac <= 90; sayac++) {
+            if (sayac % 2 == 0) {
+                ciftToplam += sayac;
+            } else {
+                tekToplam += sayac;
+            }
+        }
+
+        System.out.println("Tek sayıların toplamı: " + tekToplam);
+        System.out.println("Çift sayıların toplamı: " + ciftToplam);
 
 
     }
